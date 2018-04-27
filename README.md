@@ -135,23 +135,20 @@ subspace.get(key, (error, value) => {
 
   if (error) console.log(error)
   
-  console.log(record)
+  console.log(value)
 
   // the data value is decrypted by default using your private key 
 
   /*
 
   {
-    key: 'ab3545e7cf80c3b8067ab00954510610d5744451'
-    value: {
-      data: 'hello subspace',
-      timeStamp: 'unix timestamp for when record is published', 
-      sequence: 'integer representing the version number',
-      size: 'size of data in bytes',
-      contract: 'id of the contract this data is stored under',
-      signature: 'signature of record with my private key',
-      ownerKey: 'hash of owner public key'
-    }
+    data: 'hello subspace',
+    timeStamp: 'unix timestamp for when record is published', 
+    sequence: 'integer representing the version number',
+    size: 'size of data in bytes',
+    contract: 'id of the contract this data is stored under',
+    signature: 'signature of record with my private key',
+    ownerKey: 'hash of owner public key'
   }
 
   */
