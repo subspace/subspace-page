@@ -9,11 +9,9 @@
 </h1>
 <hr>
 
+## Subspace Client
 
-
-## Subspace Client Library
-
-The subspace client is a javascript library that can run in a Node JS or Web Browser environment.  It allows you to build a client side application for web, mobile, or desktop apps running on the subspace protocol.
+The **subspace client** is a javascript library that can run in a **node.js** or **browser** runtime.  It allows you to build client side applications for web, mobile, or desktop apps using the subspace protocol and device network.
 
 Subspace is a decentralized NoSQL database, or key-value store, that has a simple get(), put() API. Data hosted on subspace is sharded across a network of persistent mobile devices.  Subspace hosts set aside local disk space in order to earn subspace credits, which they receive for hosting and serving data for subspace apps.  Subspace allows you as a developer to quickly build secure decentralized applications without having to:
 
