@@ -21,7 +21,7 @@ Subspace is a decentralized NoSQL database, or key-value store, that has a simpl
 4. Launching your own token
 5. Bootstraping a peer network
 
-### Why build decentralized apps?  
+#### Why build decentralized apps?  
 
 1. It is more secure, using public key cryptography, encryption, and digital signatures
 2. It is more reliable, since data is highly replicated and self-healing
@@ -40,7 +40,7 @@ Start by visiting the [subspace console](https://console.getsubspace.io) to setu
 2. Safely store your key pair
 3. Create a new app and storage contract
 
-## Can I test it out without creating a developer account?
+#### Can I test it out without creating a developer account?
 
 Absolutely!  Install the subpace app on your mobile phone, setup a personal storage contract and get the contract id.  Now you can test your app on your own phone
 
