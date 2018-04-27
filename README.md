@@ -1,8 +1,8 @@
 <h1 align="center">
   <br>
-  <a href="https://getsubspace.io"><img src="https://github.com/subspace/subspace.github.io/blob/master/subspace.png" alt="SubSpace" width="150"></a>
+  <img src="https://github.com/subspace/subspace.github.io/blob/master/subspace.png" alt="SubSpace" width="150">
   <br>
-  SubSpace
+  <a href="https://getsubspace.io">SubSpace</a>
   <br>
   <h4 align="center">A secure, persistent, highly available and decentralized NoSQL database.</h4>
   <br>
