@@ -4,10 +4,11 @@
   <br>
   subspace
   <br>
+  <h4 align="center">A secure, persisetent, highly available and decentrlized NoSQL database.</h4>
   <br>
 </h1>
 
-<h4 align="center">The streaming torrent client. For node.js and the web.</h4>
+
 
 ## Subspace Client Library
 
