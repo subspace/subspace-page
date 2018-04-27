@@ -92,6 +92,7 @@ subspace.on('connected', (stats) => {
 ## Write some data to SSDB
 
 ```javascript
+
 // put some data to SSDB 
 let data = 'hello subspace'
 
@@ -121,8 +122,10 @@ subspace.put(data, (record) => {
 ## Read some data from SSB
 
 ```javascript
+
 // get some data from SSDB
 let key = 'ab3545e7cf80c3b8067ab00954510610d5744451'
+
 subspace.get(key, (value) => {
   console.log(record)
 
@@ -145,6 +148,46 @@ subspace.get(key, (value) => {
 
   */
 })
+```
+
+## Manage Permissions
+
+```javascript
+
+// grant read-only access to data on subspace with some number of identites 
+// identites are public key hashes and can belong to users, apps, or groups 
+// the data will be re-signed with these public keys, now they can decrypt the data on get() 
+
+let key = 'ab3545e7cf80c3b8067ab00954510610d5744451'
+let identities = ['4532ea9bfd3745f9a46d3d7b0e136b8f48daf87a', 'abdd468c57a4c58edb81dc0bc221f168a17421c6', '3929ff11d5e60ca74bc059b7086e78b4b8bd6098']
+
+subspace.share(key, identities, (readGroup) => {
+  console.log(readGroup)
+
+  /*
+  [
+    '4532ea9bfd3745f9a46d3d7b0e136b8f48daf87a', 
+    'abdd468c57a4c58edb81dc0bc221f168a17421c6', 
+    '3929ff11d5e60ca74bc059b7086e78b4b8bd6098'
+  ]
+  */
+
+  
+})
+
+// remove read-only access to data from some number of identities
+// the data will be re-signed with the adjusted set of public keys
+// since data is mutable any old identities can no longer decrypt the data they read from SSDB
+
+subspace.unshare(key, identities, (readGroup) => {
+  console.log(readGroup)
+
+  /*
+  []
+  */
+  
+}) 
+
 ```
 
 ## Full Example
