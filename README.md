@@ -1,8 +1,8 @@
 <h1 align="center">
   <br>
-  <a href="https://getsubspace.io"><img src="https://github.com/subspace/subspace.github.io/subspace.png" alt="SubSpace" width="150"></a>
+  <a href="https://getsubspace.io"><img src="https://github.com/subspace/subspace.github.io/blob/master/subspace.png" alt="SubSpace" width="150"></a>
   <br>
-  Subspace
+  subspace
   <br>
   <br>
 </h1>
