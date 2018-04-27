@@ -25,8 +25,8 @@ Subspace is a decentralized NoSQL database, or key-value store, that has a simpl
 
 #### Why build decentralized apps?  
 
-1. It is more secure, using public key cryptography, encryption, and digital signatures
-2. It is more reliable, since data is highly replicated and self-healing
+1. They are more secure, using public key cryptography, encryption, and digital signatures.
+2. They are more reliable, since data is highly replicated and self-healing.
 3. Users can fully own their data by covering the hosting costs.
 4. Users can pay you in credits they earn from devices they already own.
 5. You dont have to worry about managing infrastructere, subspace manages that. 
