@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://github.com/subspace/subspace.github.io/blob/master/subspace.png" alt="SubSpace" width="150">
+  <img src="https://raw.githubusercontent.com/subspace/subspace.github.io/master/subspace.png" alt="SubSpace" width="150">
   <br>
   <a href="https://getsubspace.io">SubSpace</a>
   <br>
