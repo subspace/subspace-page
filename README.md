@@ -91,7 +91,61 @@ subspace.on('connected', (stats) => {
 
 ## Write some data to SSDB
 
+```javascript
+// put some data to SSDB 
+let data = 'hello subspace'
+
+subspace.put(data, (record) => {
+  console.log(record)
+  
+  // the data value is encrypted by default using your private key 
+
+  /*
+  {
+    key: 'ab3545e7cf80c3b8067ab00954510610d5744451'
+    value: {
+      data: 'hello subspace',
+      timeStamp: 'unix timestamp for when record is published', 
+      sequence: 'integer representing the version number',
+      size: 'size of data in bytes',
+      contract: 'id of the contract this data is stored under',
+      signature: 'signature of record with my private key',
+      ownerKey: 'hash of owner public key'
+    }
+  }
+  */
+
+})
+```
+
 ## Read some data from SSB
+
+```javascript
+// get some data from SSDB
+let key = 'ab3545e7cf80c3b8067ab00954510610d5744451'
+subspace.get(key, (value) => {
+  console.log(record)
+
+  // the data value is decrypted by default using your private key 
+
+  /*
+
+  {
+    key: 'ab3545e7cf80c3b8067ab00954510610d5744451'
+    value: {
+      data: 'hello subspace',
+      timeStamp: 'unix timestamp for when record is published', 
+      sequence: 'integer representing the version number',
+      size: 'size of data in bytes',
+      contract: 'id of the contract this data is stored under',
+      signature: 'signature of record with my private key',
+      ownerKey: 'hash of owner public key'
+    }
+  }
+
+  */
+})
+```
 
 ## Full Example
 
