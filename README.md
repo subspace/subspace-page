@@ -2,7 +2,7 @@
   <br>
   <a href="https://getsubspace.io"><img src="https://github.com/subspace/subspace.github.io/blob/master/subspace.png" alt="SubSpace" width="150"></a>
   <br>
-  subspace
+  SubSpace
   <br>
   <h4 align="center">A secure, persisetent, highly available and decentralized NoSQL database.</h4>
   <br>
