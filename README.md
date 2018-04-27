@@ -4,7 +4,7 @@
   <br>
   <a href="https://getsubspace.io">SubSpace</a>
   <br>
-  <h4 align="center">A secure, persistent, highly available and <span style='font-style:italic'>decentralized<span> NoSQL database.</h4>
+  <h4 align="center">A secure, persistent, highly available and <span style='font-style:italic'>decentralized</span> NoSQL database.</h4>
   <br>
 </h1>
 <hr>
