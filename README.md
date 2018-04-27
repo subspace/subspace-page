@@ -32,11 +32,11 @@ Subspace is a decentralized NoSQL database, or key-value store, that has a simpl
 5. You don't have to manage infrastrucure, just focus on making a great gapp. 
 
 
-To learn more about the how the subspace protocols works you can review the [architecture guide]() or read our [white paper]().
+To learn more about the how the subspace protocols works you can review the architecture guide or read our white paper.
 
 ## Subspace Developer Console
 
-Start by visiting the [subspace console](https://console.getsubspace.io) to setup your developer account and create a storage contract.  You will receive one subspace credit for signing up, which allows you to create a 1 GB / month storage contract for testing purposes purposes. 
+Start by visiting the subspace console to setup your developer account and create a storage contract.  You will receive one subspace credit for signing up, which allows you to create a 1 GB / month storage contract for testing purposes purposes. 
 
 1. Create an new subspace developer account
 2. Safely store your key pair
@@ -47,6 +47,8 @@ Start by visiting the [subspace console](https://console.getsubspace.io) to setu
 Absolutely!  Install the subpace app on your mobile phone, setup a personal storage contract and get the contract id.  Now you can test your app on your own phone
 
 ## Include subspace in your app
+
+> Please note, these libraries are not live yet
 
 Using NPM
 
