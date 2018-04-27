@@ -4,19 +4,19 @@ The subspace client is a javascript library that can run in a Node JS or Web Bro
 
 Subspace is a decentralized NoSQL database, or key-value store, that has a simple get(), put() API. Data hosted on subspace is sharded across a network of persistent mobile devices.  Subspace hosts set aside local disk space in order to earn subspace credits, which they receive for hosting and serving data for subspace apps.  Subspace allows you as a developer to quickly build secure decentralized applications without having to:
 
-1) Design your own cryptograhic database
-2) Createa a P2P overlay network
-3) Handle distributed consensus
-4) Create your own cyrpto-token incentives
-5) Bootstrap a persistent peer network
+1. Design your own cryptograhic database
+2. Createa a P2P overlay network
+3. Handle distributed consensus
+4. Create your own cyrpto-token incentives
+5. Bootstrap a persistent peer network
 
 Why build decentralized apps?  
 
-1) It is more secure, using public key cryptography, encryption, and digital signatures
-2) It is more reliable, since data is highly replicated and self-healing
-3) Users can fully own their data by covering the hosting costs.
-4) Users can pay you in credits they earn from devices they already own.
-5) You dont have to worry about managing infrastructere, subspace manages that. 
+1. It is more secure, using public key cryptography, encryption, and digital signatures
+2. It is more reliable, since data is highly replicated and self-healing
+3. Users can fully own their data by covering the hosting costs.
+4. Users can pay you in credits they earn from devices they already own.
+5. You dont have to worry about managing infrastructere, subspace manages that. 
 
 
 To learn more about the how the subspace protocols works you can review the [architecture guide]() or read our [white paper]().
