@@ -51,21 +51,52 @@ Absolutely!  Install the subpace app on your mobile phone, setup a personal stor
 Using NPM
 
 ```
-npm install subspace
+npm install subspace-client
 ```
 
 Via a CDN
 
 ```html
-<script src="https://cdnjs.cloudflare.com/ajax/libs/subspace.js/1.0/subspace.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/subspace-client.js/1.0/subspace-client.min.js"></script>
 ```
+
+## Connect to the subspace network
+
+```javascript
+
+import 'subspace' from subspace-client
+
+// generate a new ECDSA keypair for a this user
+// store this somewhere for safe keeping
+const keyPair = subspace.createKeyPair()
+
+// or load an existing EDCSA keypair from disk
+let publicPath = '../my_public_key.pem'
+let privatePath = '../my_private_key.pem'
+const keyPair = subspace.loadKeyPair(publicPath, privatePath)
+
+// include your contract_id 
+// contract space can only be written to by authorized users, more on this later
+let contractId = 'a9993e364706816aba3e25717850c26c9cd0d89d' 
+
+
+// your private key is not shared over the network, only used for signing requests 
+subspace.connect(keyPair, contractId)
+
+subspace.on('connected', (stats) => {
+  console.log(`connected to subspace!`)
+  console.log(stats)
+})
+```
+
+## Write some data to SSDB
+
+## Read some data from SSB
+
+## Full Example
 
 ## Todo
 
 * What is a storage contract
 * Architecture document
 
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
