@@ -32,7 +32,7 @@ Subspace is a decentralized NoSQL database, or key-value store, that has a simpl
 5. You don't have to manage infrastrucure, just focus on making a great gapp. 
 
 
-To learn more about the how the subspace protocols works you can review the architecture guide or read our white paper.
+To learn more about how the subspace protocols works you can review the architecture guide or read the white paper (coming soon).
 
 ## Subspace Developer Console
 
