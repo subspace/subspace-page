@@ -214,10 +214,15 @@ subspace.del(key, (error) => {
 
 ```
 
-## Full Example
+## Stay tuned for updates, this is a WIP, next steps include
 
-## Todo
-
-* What is a storage contract
-* Architecture document
+* Link to white paper
+* Link to architecture document
+* Developer console will be live
+* Example web app (vue.js)
+* Example mobile app (react native)
+* Example desktop app (electron)
+* How to manage write permissions
+* How manage read/write groups
+* How to register authorized contract users
 
