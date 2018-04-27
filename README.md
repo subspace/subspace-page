@@ -4,9 +4,10 @@
   <br>
   subspace
   <br>
-  <h4 align="center">A secure, persisetent, highly available and decentrlized NoSQL database.</h4>
+  <h4 align="center">A secure, persisetent, highly available and decentralized NoSQL database.</h4>
   <br>
 </h1>
+<hr>
 
 
 
