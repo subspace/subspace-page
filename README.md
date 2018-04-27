@@ -48,31 +48,16 @@ Absolutely!  Install the subpace app on your mobile phone, setup a personal stor
 
 Using NPM
 
-$ npm install subspace-client 
+```
+npm install subspace
+```
 
 Via a CDN
 
-
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/subspace.js/1.0/subspace.min.js"></script>
 ```
+
 ## Todo
 
 * What is a storage contract
