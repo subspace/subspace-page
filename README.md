@@ -1,3 +1,14 @@
+<h1 align="center">
+  <br>
+  <a href="https://getsubspace.io"><img src="https://github.com/subspace/subspace.github.io/subspace.png" alt="SubSpace" width="150"></a>
+  <br>
+  Subspace
+  <br>
+  <br>
+</h1>
+
+<h4 align="center">The streaming torrent client. For node.js and the web.</h4>
+
 ## Subspace Client Library
 
 The subspace client is a javascript library that can run in a Node JS or Web Browser environment.  It allows you to build a client side application for web, mobile, or desktop apps running on the subspace protocol.
