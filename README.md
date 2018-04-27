@@ -96,7 +96,10 @@ subspace.on('connected', (stats) => {
 // put some data to SSDB 
 let data = 'hello subspace'
 
-subspace.put(data, (record) => {
+subspace.put(data, (error, record) => {
+
+  if (error) console.log(error)
+  
   console.log(record)
   
   // the data value is encrypted by default using your private key 
@@ -119,14 +122,17 @@ subspace.put(data, (record) => {
 })
 ```
 
-## Read some data from SSB
+## Read some data from SSDB
 
 ```javascript
 
 // get some data from SSDB
 let key = 'ab3545e7cf80c3b8067ab00954510610d5744451'
 
-subspace.get(key, (value) => {
+subspace.get(key, (error, value) => {
+
+  if (error) console.log(error)
+  
   console.log(record)
 
   // the data value is decrypted by default using your private key 
@@ -161,7 +167,10 @@ subspace.get(key, (value) => {
 let key = 'ab3545e7cf80c3b8067ab00954510610d5744451'
 let identities = ['4532ea9bfd3745f9a46d3d7b0e136b8f48daf87a', 'abdd468c57a4c58edb81dc0bc221f168a17421c6', '3929ff11d5e60ca74bc059b7086e78b4b8bd6098']
 
-subspace.share(key, identities, (readGroup) => {
+subspace.share(key, identities, (error, readGroup) => {
+
+  if (error) console.log(error)
+  
   console.log(readGroup)
 
   /*
@@ -171,15 +180,17 @@ subspace.share(key, identities, (readGroup) => {
     '3929ff11d5e60ca74bc059b7086e78b4b8bd6098'
   ]
   */
-
-  
+ 
 })
 
 // remove read-only access to data from some number of identities
 // the data will be re-signed with the adjusted set of public keys
 // since data is mutable any old identities can no longer decrypt the data they read from SSDB
 
-subspace.unshare(key, identities, (readGroup) => {
+subspace.unshare(key, identities, (error, readGroup) => {
+
+  if (error) console.log(error)
+  
   console.log(readGroup)
 
   /*
@@ -187,6 +198,19 @@ subspace.unshare(key, identities, (readGroup) => {
   */
   
 }) 
+
+```
+
+## Delete some data from SSDB
+
+```javascript
+
+// this will decrease the balance on your storage contract
+
+let key = 'ab3545e7cf80c3b8067ab00954510610d5744451'
+subspace.del(key, (error) => {
+  if (error) console.log(error)
+})
 
 ```
 
