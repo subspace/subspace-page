@@ -27,9 +27,9 @@ Subspace is a decentralized NoSQL database, or key-value store, that has a simpl
 
 1. They are more secure, using public key cryptography, encryption, and digital signatures.
 2. They are more reliable, since data is highly replicated and self-healing.
-3. Users can fully own their data sincey they can cover the hosting costs.
+3. Users can fully own their data since they can cover the hosting costs.
 4. Users can pay you in credits they earn from devices they already own.
-5. You don't have to manage infrastrucure, just focus on making a great gapp. 
+5. You don't have to manage infrastrucure, instead focus on making a great app. 
 
 
 To learn more about how the subspace protocol works you can review the architecture guide or read the white paper (coming soon).
