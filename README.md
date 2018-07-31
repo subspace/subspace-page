@@ -217,6 +217,5 @@ subspace.del(key, (error) => {
 * Example mobile app (react native)
 * Example desktop app (electron)
 * How to manage write permissions
-* How manage read/write groups
 * How to register authorized contract users
 
