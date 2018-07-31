@@ -11,7 +11,7 @@
 
 ## Subspace Client
 
-The **subspace client** is a javascript library that can run in a **node.js** or **browser** runtime.  It allows you to build client-side applications for web, mobile, or desktop apps using the subspace protocol and device network.
+The **subspace client** is a javascript library that can run in a **node.js**, **browser**, or **react-native** runtime.  It allows you to build client-side applications for web, mobile, or desktop apps using the subspace protocol and device network.
 
 Subspace is a decentralized NoSQL database, or key-value store, that has a simple put(), get() API. Data hosted on subspace is sharded across a network of end user devices including mobile phones, tablets, desktops, and yes, server too.  Subspace hosts set aside local disk space in order to earn subspace credits, which they receive for hosting and serving data for subspace apps.  
 
@@ -118,7 +118,6 @@ subspace.put(data, (error, record) => {
       signature: '-----Begin PGP Signature...' // Detached openpgp signature with owner's public key
     }
   }
-
 })
 ```
 
@@ -137,8 +136,6 @@ subspace.get(key, (error, value) => {
 
   // the data value is decrypted by default using your private key 
 
-  /*
-
    {
     key: '614da614...', // sha256 hash of unique public key for this record
     value: {
@@ -152,8 +149,6 @@ subspace.get(key, (error, value) => {
       signature: '-----Begin PGP Signature...' // Detached openpgp signature with owner's public key
     }
   }
-
-  */
 })
 ```
 
