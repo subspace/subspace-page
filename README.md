@@ -1,6 +1,3 @@
-<link rel="shortcut icon" type="image/x-icon" href="subspace.ico">
-
-
 <h1 align="center">
   <br>
   <img src="https://raw.githubusercontent.com/subspace/subspace.github.io/master/subspace.png" alt="SubSpace" width="150">
